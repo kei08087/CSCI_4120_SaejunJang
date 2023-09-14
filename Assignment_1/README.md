@@ -13,6 +13,6 @@ The bottom one is the final code of assignment. Others are just trial.
 
 
 There are no significant change in the accuracy chart based on the size of k. So there is no best k in this algorithm.
-The reason why this happened is expected as data of virginica. After some trials, we've found out that regardless of k's value, every single data of Iris_virginica are predicted as Iris_versicolor, which differenciated with Iris_setosa(Every single data predicted correctly) and Iris_versicolor(Almost all data predicted correctly). Therefore, the whole accuracy rate was dependent to how much Iris_virginica data was included in test set, not k.
+The reason why this happened is expected as data of virginica. After some trials, we've found out that regardless of k's value, every single data of Iris_virginica are predicted as Iris_versicolor, which differentiated with Iris_setosa(Every single data predicted correctly) and Iris_versicolor(Almost all data predicted correctly). Therefore, the whole accuracy rate was dependent to how much Iris_virginica data was included in test set, not k.
 
 ![HW1_result_chart](https://github.com/kei08087/CSCI_4120_SaejunJang/assets/56301214/5b8bbe43-f342-48c2-a939-036864d8b1d9)
